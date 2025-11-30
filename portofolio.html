@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<!---AOS CSS-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+<!--AOS JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+        AOS.init({
+            duration: 1000, 
+            once: true
+        });
+    });
+</script>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PKL Website</title>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+        <!-- AOS CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <link rel="stylesheet" href="portofolio.css">
+        <style>
+        .img-grid {display:grid; gap:10px;}
+        .grid-3 {grid-template-columns:repeat(3,1fr);} 
+        .grid-4 {grid-template-columns:repeat(4,1fr);} 
+        .grid-6 {grid-template-columns:repeat(6,1fr);} 
+        .img-grid img {width:100%; border-radius:6px;}
+        </style>
+
+    </head>
+
+    <body>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #3a3a3a;">
+            <div class="container">
+                <a class="navbar-brand" href="#home">Praktik Kerja Lapangan</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Pemrograman</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Pengelolaan Data</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Desain</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HOME -->
+        <section id="home" class="d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Kiri: Konten -->
+                    <div class="col-md-6 order-2 order-md-1 mb-4" data-aos="fade-right" data-aos-duration="1500">
+                        <h1>Hai, Saya <span style="color: #353434;">Septine Mar Atus Shofiyah</span></h1>
+                        <h4>Saya <span class="typewriter-text">Siswi Magang</span></h4>
+                        <p data-aos="flip-down" data-aos-delay="500">Saya melaksanakan Praktik Kerja Lapangan (PKL) di Dinas Komunikasi dan Informatika Kabupaten Nganjuk. Selama kegiatan PKL, saya bertugas membantu pekerjaan harian di bidang Statistik dan IKP. Selama menjalani PKL di Dinas Komunikasi dan Informatika, saya mempelajari proses kerja instansi dalam mengelola informasi publik dan dokumentasi kegiatan</p>
+                    </div>
+
+                    <!-- Kanan: Foto -->
+                    <div class="col-md-6 order-1 order-md-2 text-center mb-4" data-aos="zoom-in" data-aos-duration="3000">
+                        <div class="glow-frame-wrapper">
+                            <div class="glow-frame">
+                                <img src="sepGIM.JPG" alt="Foto Septine" class="perfect-circle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--pemrograman dan Pengembangan Gim-->
+        <section id="portfolio" class="py-5 bg-light">
+            <div class="container">
+                <h2  class="text-center mb-5" data-aos="fade-up">pemrograman dan Pengembangan Gim</h2>
+                <div class="container text-center">
+                    <h3 class="mb-4 text-center mt-5" data-aos="fade-right">Link Portofolio</h3>
+                    <a href="https://septinemar.github.io/" target="_blank" class="btn btn-abu mb-4" data-aos="zoom-in">Kunjungi Portofolio</a>
+                </div>
+                <!--Unity-->
+                <h3 class="mb-4 text-center mt-5" data-aos="fade-right">Code Pemrograman</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
+                        <div class="card">
+                            <a href="code1.png" data-lightbox="portfolio" data-title="Project 1">
+                                <img src="code1.png" class="card-img-top" alt="Project 1">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">HTML</h5>
+                                <p class="card-text">HTML berfungsi sebagai penyusun struktur dasar sebuah halaman web. Semua elemen di dalam web—seperti teks, gambar, tombol, tabel, form, dan link—dibuat menggunakan HTML. HTML juga menentukan bagian-bagian penting halaman seperti header, main content, sidebar, dan footer. Tanpa HTML, browser tidak punya “isi” atau komponen yang bisa ditampilkan. Jadi inti fungsi HTML adalah membentuk kerangka dan menyusun setiap elemen yang tampil di halaman.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="card">
+                            <a href="code2.png" data-lightbox="portfolio" data-title="Project 2">
+                                <img src="code2.png" class="card-img-top" alt="Project 2">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">CSS</h5>
+                                <p class="card-text">CSS berfungsi untuk mengatur tampilan dan gaya visual dari elemen-elemen HTML. Dengan CSS, tampilan website menjadi lebih rapi, menarik, dan profesional. CSS mengatur warna, jenis dan ukuran font, jarak antar elemen, posisi layout, bentuk tombol, hingga efek transisi atau animasi. Selain itu, CSS memungkinkan desain responsif, yaitu tampilan yang berubah mengikuti ukuran layar HP, tablet, atau laptop. Tanpa CSS, semua halaman web akan terlihat polos dan tidak nyaman dilihat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="card">
+                            <a href="code3.png" data-lightbox="portfolio" data-title="Project 3">
+                                <img src="code3.png" class="card-img-top" alt="Project 3">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">JavaScript</h5>
+                                <p class="card-text">JavaScript berfungsi untuk memberikan interaksi dan logika pada website agar tidak hanya statis. Dengan JavaScript, elemen web bisa merespon tindakan pengguna—misalnya ketika tombol diklik, form dicek sebelum dikirim, membuat slide show, membuka popup, hingga mengubah konten tanpa perlu me-reload halaman. JavaScript juga dapat berkomunikasi dengan server (misalnya mengambil data tanpa memuat ulang), sehingga web bisa terasa seperti aplikasi. Intinya, JS membuat website hidup, interaktif, dan dinamis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- pengelolaan data -->
+        <section id="pengelolaan-data" class="gray-gradient">
+            <div class="container">
+                <h2 class="text-center mb-5">Pengelolaan Data dan Sistem Informasi</h2>
+
+                <!-- KIM -->
+                <h3 class="text-center mb-4" data-aos="fade-up">Rekap Bulanan Publikasi Medsos dan Website KIM</h3>
+                <div class="card-body text-center">
+                    <p class="card-text mb-4">Saya membantu mengecek dan merekap aktivitas publikasi bulanan yang dilakukan oleh Komunitas Informasi Masyarakat (KIM) melalui wesite dan akun instagram. Rekap dilakukan melalui spreadsheet yang disediakan instansi</p>
+                </div>
+                <div class="row">
+                <!-- Item 1 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="09-07-2025 KIM.png" data-lightbox="ps" data-title="Tanggal: 2024-01-12">
+                            <img src="09-07-2025 KIM.png" class="card-img-top" alt="Photoshop 1">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">09-Juli-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="6-agustus-2025 KIM.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="6-agustus-2025 KIM.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">06-Agustus-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="02-09-2025 KIM.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="02-09-2025 KIM.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">02-September-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="07-11-2025 KIM.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="07-11-2025 KIM.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">07-November-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- rekap sosmed -->
+                <h3 class="text-center mb-4" data-aos="fade-up">Memantau Medsos dan Rekapitulasi Publikasi</h3>
+                <div class="card-body text-center">
+                    <p class="card-text mb-4">Saya membantu staf memantau dan merekap harian aktivitas publikasi pada berbagai akun media sosial dan website Dinas Kominfo Kabupaten Nganjuk, meliputi Instagram, Facebook, TikTok, YouTube (Diskominfo, Omah Tandang, RSAL), serta Website NganjukKab, dengan mencatat jumlah unggahan, caption, dan tautan</p>
+                </div>
+                <div class="row">
+                <!-- Item 1 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="17-juli-2025.png" data-lightbox="ps" data-title="Tanggal: 2024-01-12">
+                            <img src="17-juli-2025.png" class="card-img-top" alt="Photoshop 1">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">17-Juli-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="23-juli-2025.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="23-juli-2025.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">23-Juli-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="29-juli_2025.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="29-juli_2025.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">29-Juli-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="7-agustus-2025.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="7-agustus-2025.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">07-Agustus-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="8-agustus-2025.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="8-agustus-2025.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">08-Agustus-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="14-agustus-2025.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="14-agustus-2025.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">14-Agustus-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="19-agustus.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="19-agustus.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">19-Agustus-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 8 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="26-agustus.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="26-agustus.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">26-Agustus-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 9 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="1-september.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="1-september.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">01-September-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 10 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="5-september.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="5-september.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">05-September-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 11 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="11-september.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="11-september.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">11-September-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 12 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="17-sep.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="17-sep.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">17-September-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 13 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="23-september (2).png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="23-september (2).png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">23-September-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 14 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="29-september.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="29-september.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">29-September-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 15 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="3-oktober.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="3-oktober.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">03-Oktober-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 16 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="8-oktober.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="8-oktober.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">08-Oktober-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 17 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="13-oktober.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="13-oktober.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">13-Oktober-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 18 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="22-oktober.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="22-oktober.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">22-Oktober-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 19 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="27-oktober.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="27-oktober.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">27-Oktober-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 20 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="3-nov.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="3-nov.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">03-November-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 21 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="7-nov.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="7-nov.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">07-November-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 22 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="10-nov.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="10-nov.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">10-November-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 23 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="20-nov.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="20-nov.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">20-November-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 24 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="26-nov.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="26-nov.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">26-November-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OPD -->
+                <h3 class="text-center mb-4" data-aos="fade-up">Rekap Jumlah Postingan OPD</h3>
+                <div class="card-body text-center">
+                    <p class="card-text mb-4">Pada bagian ini, para siswa magang bertugas membantu memantau dan menghitung jumlah postingan dari akun media sosial OPD Kabupaten Nganjuk, meliputi Instagram, Facebook, TikTok, X, dan website resmi OPD</p>
+                </div>
+                <div class="row">
+                <!-- Item 1 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="OPD4.png" data-lightbox="ps" data-title="Tanggal: 2024-01-12">
+                            <img src="OPD4.png" class="card-img-top" alt="Photoshop 1">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">17-September-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="OPD3.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="OPD3.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">18-September-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="OPD2.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="OPD2.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">19-September-2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow">
+                        <a href="OPD1.png" data-lightbox="ps" data-title="Tanggal: 2024-01-18">
+                            <img src="OPD1.png" class="card-img-top" alt="Photoshop 2">
+                        </a>
+                        <div class="card-body text-center">
+                            <p class="card-text">01-Oktober-2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+   
+        <!--Project Section-->
+        <section id="portfolio" class="py-5 bg-light">
+            <div class="container">
+                <h2  class="text-center mb-5" data-aos="fade-up">Pembuatan Desain Grafis atau 3D Modeling</h2>
+                <!--Blender-->
+                <h3 class="mb-4 text-center mt-5" data-aos="fade-right">3D Modeling</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
+                        <div class="card">
+                            <a href="blender1.png" data-lightbox="portfolio" data-title="Project 1">
+                                <img src="blender1.png" class="card-img-top" alt="Project 1">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Project 1</h5>
+                                <p class="card-text">Bhethroom</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="card">
+                            <a href="blender2.png" data-lightbox="portfolio" data-title="Project 2">
+                                <img src="blender2.png" class="card-img-top" alt="Project 2">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Project 2</h5>
+                                <p class="card-text">Kitchen</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="card">
+                            <a href="blender3.png" data-lightbox="portfolio" data-title="Project 3">
+                                <img src="blender3.png" class="card-img-top" alt="Project 3">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Project 3</h5>
+                                <p class="card-text">Family room</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="card">
+                            <a href="blender4.png" data-lightbox="portfolio" data-title="Project 3">
+                                <img src="blender4.png" class="card-img-top" alt="Project 3">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Project 4</h5>
+                                <p class="card-text">Bedroom</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="card">
+                            <a href="blender5.png" data-lightbox="portfolio" data-title="Project 3">
+                                <img src="blender5.png" class="card-img-top" alt="Project 3">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Project 5</h5>
+                                <p class="card-text">Living room</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="card">
+                            <a href="blender6.png" data-lightbox="portfolio" data-title="Project 3">
+                                <img src="blender6.png" class="card-img-top" alt="Project 3">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Project 6</h5>
+                                <p class="card-text">Library</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Canva-->
+                <h3 class="mb-4 text-center mt-5" data-aos="fade-right">Desain Publikasi</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
+                        <div class="card">
+                            <a href="canva1.png" data-lightbox="portfolio" data-title="Project 1">
+                                <img src="canva1.png" class="card-img-top" alt="Project 1">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Project 1</h5>
+                                <p class="card-text">10-juli-2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="card">
+                            <a href="canva2.jpeg" data-lightbox="portfolio" data-title="Project 2">
+                                <img src="canva2.jpeg" class="card-img-top" alt="Project 2">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Project 2</h5>
+                                <p class="card-text">04-September-2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="card">
+                            <a href="canva3.png" data-lightbox="portfolio" data-title="Project 3">
+                                <img src="canva3.png" class="card-img-top" alt="Project 3">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Project 3</h5>
+                                <p class="card-text">11-Juli-2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="card">
+                            <a href="canva4.png" data-lightbox="portfolio" data-title="Project 3">
+                                <img src="canva4.png" class="card-img-top" alt="Project 3">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Project 4</h5>
+                                <p class="card-text">16-Juli-2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="card">
+                            <a href="canva5.jpeg" data-lightbox="portfolio" data-title="Project 3">
+                                <img src="canva5.jpeg" class="card-img-top" alt="Project 3">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Project 5</h5>
+                                <p class="card-text">17-Agustus-2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="card">
+                            <a href="canva6.jpeg" data-lightbox="portfolio" data-title="Project 3">
+                                <img src="canva6.jpeg" class="card-img-top" alt="Project 3">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Project 6</h5>
+                                <p class="card-text">14-Agustus-2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--photoshop-->
+                <h3 class="mb-4 text-center mt-5" data-aos="fade-right">Desain Grafis Photoshop</h3>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
+                        <div class="card text-center">
+                            <a href="minggu1.jpg" data-lightbox="portfolio" data-title="Project 1">
+                                <img src="minggu1.jpg" class="card-img-top" alt="Project 1">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Project 1</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    .card-img-top {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                </style>
+            </div>
+        </section>
+
+        <!--kontak-->
+        <section id="contact" class="d-flex align-items-center text-center text-white" style="padding: 80px 0; background: linear-gradient(to right, #3a3a3a, #7A8BA3, #5e5e5e);" data-aos="fade-in">
+            <div class="container" data-aos="fade-up">
+                <h2 class="text-center">Contact Me</h2>
+                <div class="row">
+                    <div class="col-lg-6 mx-auto text-center">
+                        <p><i class="fas fa-envelope"></i> septinemara50f1@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +62 858-5635-0723</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Dsn.Sanan-DS.Sana-Kec.Pace-Kab.Nganjuk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="d-flex align-items-center text-center text-white" style="background-color: #3a3a3a;">
+            <div class="container">
+                <p>&copy; 2025 WebPKL(septine). All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script>
+            function setQuizOpened() {
+                localStorage.setItem("openedFromNavbar", "true");
+            }
+
+            document.addEventListener("DOMContentLoaded", function () {
+                const startBtn = document.getElementById("startQuizBtn");
+                const quizContainer = document.getElementById("quizContainer");
+                const quizFrame = document.getElementById("quizFrame");
+
+                startBtn.addEventListener("click", function () {
+                    quizContainer.style.display = "block";
+                    quizFrame.src = "kuis.html";
+                    startBtn.style.display = "none";
+                });
+
+                window.addEventListener("message", function (event) {
+                if (event.data === "kuisSelesai") {
+                    quizFrame.src = "";
+                    quizContainer.style.display = "none";
+                    startBtn.style.display = "inline-block";
+                }
+                });
+            });
+        </script>
+        
+        <script src="portofolio.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox-plus-jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    </body>
+</html>
